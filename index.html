@@ -41,16 +41,14 @@
       <figure class="player" id="video">
         <video
           id="local-video"
+          src="video.mp4"
           controls
           playsinline
           controlsList="nodownload noremoteplayback"
           disablePictureInPicture
-          preload="metadata"
-        >
-          <source src="video.mp4" type="video/mp4">
-          <source src="video.webm" type="video/webm">
-        </video>
-        <div class="player-fallback" id="video-fallback" hidden>
+          preload="auto"
+        ></video>
+        <div class="player-fallback" id="video-fallback">
           <p>Ajoutez votre fichier <strong>video.mp4</strong> dans ce dossier, à côté de index.html.</p>
         </div>
         <p class="player-mark">© 2010 Info Locale — Tous droits réservés. Interdiction de republication sur YouTube.</p>

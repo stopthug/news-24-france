@@ -115,12 +115,16 @@ a {
 .player-fallback {
   position: absolute;
   inset: 0;
-  display: grid;
+  display: none;
   place-items: center;
   padding: 24px;
   color: #eee;
   background: #1a1a1a;
   text-align: center;
+}
+
+.player-fallback.is-on {
+  display: grid;
 }
 
 .player-fallback p {
