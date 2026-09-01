@@ -8,7 +8,7 @@
   <meta name="author" content="Info Locale">
   <meta name="copyright" content="© 2010 Info Locale. Tous droits réservés. Code de la propriété intellectuelle.">
   <meta name="robots" content="index,follow,noarchive,nosnippet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="top">
@@ -40,19 +40,14 @@
 
       <figure class="player" id="video">
         <video
-          id="local-video"
-          src="video.mp4"
+          id="article-video"
+          src="videos/matis-clouet-5000-euros.mp4"
           controls
           playsinline
-          controlsList="nodownload noremoteplayback"
-          disablePictureInPicture
-          preload="auto"
+          preload="metadata"
         >
-          Votre navigateur ne lit pas cette vidéo.
+          <source src="videos/matis-clouet-5000-euros.mp4" type="video/mp4">
         </video>
-        <div class="player-fallback" id="video-fallback">
-          <p>Vidéo indisponible.</p>
-        </div>
         <p class="player-mark">© 2010 Info Locale — Tous droits réservés. Interdiction de republication sur YouTube.</p>
       </figure>
 
@@ -112,6 +107,6 @@
     </div>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="js/player.js"></script>
 </body>
 </html>

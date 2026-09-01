@@ -112,27 +112,6 @@ a {
   background: #111;
 }
 
-.player-fallback {
-  position: absolute;
-  inset: 0;
-  display: none;
-  place-items: center;
-  padding: 24px;
-  color: #eee;
-  background: #1a1a1a;
-  text-align: center;
-}
-
-.player-fallback.is-on {
-  display: grid;
-}
-
-.player-fallback p {
-  margin: 0;
-  max-width: 28ch;
-  font-size: 15px;
-}
-
 .player-mark {
   margin: 0;
   padding: 8px 10px;
